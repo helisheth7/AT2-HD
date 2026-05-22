@@ -34,3 +34,12 @@ class ProductUpdate(BaseModel):
     category: Optional[str] = None
     image_url: Optional[str] = None
     stock: Optional[int] = None
+
+# data expected when adding item to cart 
+class CartItem(BaseModel): 
+    product_id: str
+    quantity: int
+
+# allows updating only the quantity of a cart item 
+class CartItemUpdate(BaseModel): 
+    quantity: int
