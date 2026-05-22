@@ -16,3 +16,21 @@ class UserLogin(BaseModel):
 class TokenResponse(BaseModel): 
     access_token: str
     token_type: str
+
+# data expected when creating or updating a product
+class Product(BaseModel): 
+    name: str 
+    description: str
+    price: float
+    category: str
+    image_url: str
+    stock: int
+
+# allows partial updates so that only field can be updated if needed
+class ProductUpdate(BaseModel):
+    name: Optional[str] = None
+    description: Optional[str] = None
+    price: Optional[float] = None
+    category: Optional[str] = None
+    image_url: Optional[str] = None
+    stock: Optional[int] = None
