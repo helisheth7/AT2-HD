@@ -13,6 +13,6 @@ class UserLogin(BaseModel):
     password: str
 
 # response sent back after successful login 
-class TokenRequest(BaseModel): 
+class TokenResponse(BaseModel): 
     access_token: str
     token_type: str

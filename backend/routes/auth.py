@@ -3,23 +3,23 @@ from models import UserRegister, UserLogin, TokenResponse
 from database import db
 from auth import hash_password, verify_password, create_token
 
-router = APIrouter()
+router = APIRouter()
 
 @router.post("/register")
 async def register(user: UserRegister):
     # checks if email already exists in db 
-    existing = await. db.users.find_one({"email": user.email})
+    existing = await db.users.find_one({"email": user.email})
     if existing: 
         raise HTTPException(status_code=400, detail = "Email already registered")
 
     # builds user to insert into MongoDB 
     new_user = { 
-        "username" = user.username, 
-        "email" = user.email, 
-        "password" = user.password, 
+        "username": user.username, 
+        "email": user.email, 
+        "password": hash_password(user.password), 
         "role": "user"
     }
-    await db.users.insert_one(new_user_)
+    await db.users.insert_one(new_user)
     return {"message": "User registered successfully"}
 
 # looks up user by email 

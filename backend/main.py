@@ -17,4 +17,4 @@ app.include_router(auth_router, prefix="/auth", tags=["auth"])
 
 @app.get("/")
 def root():
-    return {"Backend is running"}
+    return {"message": "Backend is running"}
