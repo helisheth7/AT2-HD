@@ -123,8 +123,8 @@ async def get_all_carts(authorization: str = Header(...)):
         product = await db.products.find_one({"_id": ObjectId(item["product_id"])})
         if db_user and product:
             result.append({
-                "username": db_user["username"],
-                "email": db_user["email"],
+                "username": db_user.get("username", "Unknown"),
+                "email": db_user.get("email", "Unknown"),
                 "product_name": product["name"],
                 "product_price": product["price"],
                 "quantity": item["quantity"],
