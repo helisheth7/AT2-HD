@@ -1,0 +1,119 @@
+[
+  {
+    "_id": { "$oid": "6a1594dc52e899148045abd4" },
+    "name": "Croissant",
+    "description": "Light and crispy layers",
+    "price": 7.5,
+    "category": "Pastry",
+    "image_url": "https://images.unsplash.com/photo-1691480162735-9b91238080f6?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 5
+  },
+  {
+    "_id": { "$oid": "6a16a71b0c86219ee4d3abb4" },
+    "name": "Sourdough Loaf",
+    "description": "Classic sourdough with a crispy crust",
+    "price": 12.99,
+    "category": "Bread",
+    "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400",
+    "stock": 20
+  },
+  {
+    "_id": { "$oid": "6a16a7290c86219ee4d3abb6" },
+    "name": "Cinnamon Roll",
+    "description": "Soft and tasty cinnamon roll with cream cheese frosting",
+    "price": 5.99,
+    "category": "Pastry",
+    "image_url": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=400",
+    "stock": 15
+  },
+  {
+    "_id": { "$oid": "6a16a7340c86219ee4d3abb8" },
+    "name": "Chocolate Cake",
+    "description": "Rich double chocolate layer cake",
+    "price": 34.99,
+    "category": "Cake",
+    "image_url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400",
+    "stock": 10
+  },
+  {
+    "_id": { "$oid": "6a16ee3d5165e3272ce29c69" },
+    "name": "Baguette",
+    "description": "Traditional French baguette with a golden crust and light airy texture.",
+    "price": 8,
+    "category": "Bread",
+    "image_url": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73",
+    "stock": 18
+  },
+  {
+    "_id": { "$oid": "6a16f00117a47d4ba485ac78" },
+    "name": "Apple Pie Slice",
+    "description": "Classic apple pie with cinnamon-spiced apple filling and flaky crust.",
+    "price": 5.2,
+    "category": "Pie",
+    "image_url": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9",
+    "stock": 11
+  },
+  {
+    "_id": { "$oid": "6a16f04717a47d4ba485ac7a" },
+    "name": "Cheesecake Slice",
+    "description": "Rich and creamy cheesecake with a buttery biscuit base.",
+    "price": 6,
+    "category": "Cake",
+    "image_url": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=800&q=80",
+    "stock": 8
+  },
+  {
+    "_id": { "$oid": "6a16f08517a47d4ba485ac7c" },
+    "name": "Carrot Cake Slice",
+    "description": "Spiced carrot cake topped with creamy frosting.",
+    "price": 5.5,
+    "category": "Cake",
+    "image_url": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=800&q=80",
+    "stock": 10
+  },
+  {
+    "_id": { "$oid": "6a16f0bc17a47d4ba485ac7e" },
+    "name": "Banana Bread Slice",
+    "description": "Sweet banana bread slice with moist texture and natural banana flavour.",
+    "price": 4.5,
+    "category": "Cake",
+    "image_url": "https://images.unsplash.com/photo-1605286978633-2dec93ff88a2?auto=format&fit=crop&w=800&q=80",
+    "stock": 14
+  },
+  {
+    "_id": { "$oid": "6a16f0e817a47d4ba485ac80" },
+    "name": "Chocolate Chip Muffin",
+    "description": "Soft muffin loaded with chocolate chips.",
+    "price": 3.8,
+    "category": "Muffin",
+    "image_url": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?auto=format&fit=crop&w=800&q=80",
+    "stock": 22
+  },
+  {
+    "_id": { "$oid": "6a16f12717a47d4ba485ac82" },
+    "name": "Blueberry Muffin",
+    "description": "Moist muffin packed with fresh blueberries.",
+    "price": 3.8,
+    "category": "Muffin",
+    "image_url": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa",
+    "stock": 25
+  },
+  {
+    "_id": { "$oid": "6a16f19b17a47d4ba485ac86" },
+    "name": "Wholemeal Bread",
+    "description": "Healthy wholemeal bread made with 100% whole grains for a rich nutty flavour.",
+    "price": 5.2,
+    "category": "Bread",
+    "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+    "stock": 12
+  },
+  {
+    "_id": { "$oid": "6a16fa5258841237a5b91637" },
+    "name": "Chocolate Croissant",
+    "description": "Buttery flaky croissant filled with rich melted chocolate.",
+    "price": 4.2,
+    "category": "Pastry",
+    "image_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
+    "stock": 15
+  }
+]

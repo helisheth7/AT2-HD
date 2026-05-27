@@ -1,0 +1,56 @@
+[
+  {
+    "_id": { "$oid": "6a1005adf88514b8ec2f4ecc" },
+    "username": "admin",
+    "email": "admin@shop.com",
+    "password": "$2b$12$pszJ0rWCj2czO9AqRU.bvuwBRYOgsybfGAi/CSPrcMLE7eCtyHxYm",
+    "role": "admin"
+  },
+  {
+    "_id": { "$oid": "6a1519321c73ad83c029eb23" },
+    "email": "test@test.com",
+    "password": "$2b$12$cudbpoXU5XR5EG8/cAGTV.k1anvW2vjRONHwzvjTdWAXE7JVka0i2",
+    "role": "user"
+  },
+  {
+    "_id": { "$oid": "6a153d3cbd3b77d2ae1284b2" },
+    "email": "admin@test.com",
+    "password": "$2b$12$uNzyChqRUp.3vOR4rAeVbuNk4v6FqM9LN7IJW60xwPHPXkeiNBEg.",
+    "role": "admin"
+  },
+  {
+    "_id": { "$oid": "6a16db7ef8724d438a0835b2" },
+    "username": "tester",
+    "email": "test1@test.com",
+    "password": "$2b$12$a9iwyXAsokYoWgMtElgZW.l77ehRcN3ZA4wAo8qSvlS0wOmjaycZe",
+    "role": "user"
+  },
+  {
+    "_id": { "$oid": "6a16db978a041988ed9031a2" },
+    "username": "testuser",
+    "email": "user@test.com",
+    "password": "$2b$12$oHbVnfgIhlkHKeDkhQrnJuzZMtN5XVFeHUbUGtOCjv0YyLY8DIDSi",
+    "role": "user"
+  },
+  {
+    "_id": { "$oid": "6a16dc71f8724d438a0835b3" },
+    "username": "testing2",
+    "email": "test2@test.com",
+    "password": "$2b$12$buaQNDC3A.vQXrbJoxxykuX418s1TqBpj5jgyLhtSAMz5LCjRzK4.",
+    "role": "user"
+  },
+  {
+    "_id": { "$oid": "6a1709bde86decaa6ab5afb8" },
+    "username": "testing3",
+    "email": "test3@test.com",
+    "password": "$2b$12$uaWn/9.giENIsjVMgvzOPe7ZefUBwG1v7MZwSj7d74966ML/mqmcm",
+    "role": "user"
+  },
+  {
+    "_id": { "$oid": "6a170bebd491f6b36f02adf2" },
+    "username": "testerr",
+    "email": "tester@test.com",
+    "password": "$2b$12$9V/o73vw7.lNcCIS.KxehOMWPsFG1zHFhISYK3GE4sRz7zq1WiOR.",
+    "role": "user"
+  }
+]

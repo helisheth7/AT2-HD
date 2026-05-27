@@ -1,0 +1,86 @@
+[
+  {
+    "_id": { "$oid": "6a16d3917e4a113662454edf" },
+    "user_id": "6a153d3cbd3b77d2ae1284b2",
+    "product_id": "6a16a71b0c86219ee4d3abb4",
+    "quantity": 4
+  },
+  {
+    "_id": { "$oid": "6a16df9a607014eb10ad2c7c" },
+    "user_id": "6a16dc71f8724d438a0835b3",
+    "product_id": "6a16a71b0c86219ee4d3abb4",
+    "quantity": 3
+  },
+  {
+    "_id": { "$oid": "6a16e5b1607014eb10ad2c7e" },
+    "user_id": "6a16dc71f8724d438a0835b3",
+    "product_id": "6a16a7290c86219ee4d3abb6",
+    "quantity": 8
+  },
+  {
+    "_id": { "$oid": "6a16e5ee607014eb10ad2c7f" },
+    "user_id": "6a16dc71f8724d438a0835b3",
+    "product_id": "6a16a7340c86219ee4d3abb8",
+    "quantity": 3
+  },
+  {
+    "_id": { "$oid": "6a16f9101cc2495c1bcc5316" },
+    "user_id": "6a1005adf88514b8ec2f4ecc",
+    "product_id": "6a16a71b0c86219ee4d3abb4",
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "6a16fa031cc2495c1bcc5317" },
+    "user_id": "6a16dc71f8724d438a0835b3",
+    "product_id": "6a16f00117a47d4ba485ac78",
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "6a16fbbe1cc2495c1bcc5318" },
+    "user_id": "6a16dc71f8724d438a0835b3",
+    "product_id": "6a1594dc52e899148045abd4",
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "6a170801036e37a05052a3c7" },
+    "user_id": "6a153d3cbd3b77d2ae1284b2",
+    "product_id": "6a1594dc52e899148045abd4",
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "6a170857036e37a05052a3c9" },
+    "user_id": "6a16db978a041988ed9031a2",
+    "product_id": "6a16a7290c86219ee4d3abb6",
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "6a1709e5e86decaa6ab5afb9" },
+    "user_id": "6a1709bde86decaa6ab5afb8",
+    "product_id": "6a1594dc52e899148045abd4",
+    "quantity": 3
+  },
+  {
+    "_id": { "$oid": "6a1709e9e86decaa6ab5afbb" },
+    "user_id": "6a1709bde86decaa6ab5afb8",
+    "product_id": "6a16a7290c86219ee4d3abb6",
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "6a1709ebe86decaa6ab5afbc" },
+    "user_id": "6a1709bde86decaa6ab5afb8",
+    "product_id": "6a16a7340c86219ee4d3abb8",
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "6a170c1cd491f6b36f02adf3" },
+    "user_id": "6a170bebd491f6b36f02adf2",
+    "product_id": "6a1594dc52e899148045abd4",
+    "quantity": 2
+  },
+  {
+    "_id": { "$oid": "6a170c21d491f6b36f02adf5" },
+    "user_id": "6a170bebd491f6b36f02adf2",
+    "product_id": "6a16f00117a47d4ba485ac78",
+    "quantity": 1
+  }
+]
