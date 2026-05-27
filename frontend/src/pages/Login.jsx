@@ -30,7 +30,9 @@ export default function Login() {
         setMessage(data?.detail || "Login failed");
         return;
       }
-      auth.login(data.access_token, data.role);
+      // decode the JWT token to extract the role
+      const payload = JSON.parse(atob(data.access_token.split(".")[1]));
+      auth.login(data.access_token, payload.role);
       navigate("/products");
     } catch (err) {
       setMessage("Server error. Check backend is running.");
