@@ -1,5 +1,3 @@
-// AdminProducts.jsx
-// Admin product management — create, edit, delete products
 import { useEffect, useState } from "react";
 
 const API_URL = "http://127.0.0.1:8000/products";

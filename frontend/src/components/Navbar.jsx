@@ -74,6 +74,7 @@ nav: {
   top: 0,
   zIndex: 100,
   boxShadow: "0 2px 12px rgba(0,0,0,0.1)",
+  fontFamily: "Arial",
 },
 
   left: {

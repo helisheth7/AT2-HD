@@ -5,7 +5,7 @@ from models import Product, ProductUpdate
 
 router = APIRouter()
 
-# crud operations for products
+# crud operations 
 
 # converts mongodb's ids to string for json response 
 def product_serialiser(product) -> dict: 

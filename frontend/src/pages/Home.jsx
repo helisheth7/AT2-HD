@@ -1,21 +1,23 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <div style={styles.page}>
       <div style={styles.hero}>
-        <h1 style={styles.title}>
-          🍞 Bready to Go!
-        </h1>
+        <h1 style={styles.title}>🍞 Bready to Go!</h1>
 
         <p style={styles.subtitle}>
-          Fresh artisan breads, pastries, and desserts
-          delivered daily.
+          Freshly baked goods delivered daily with love.
         </p>
 
-        <a href="/products">
-          <button style={styles.button}>
-            Shop Now
-          </button>
-        </a>
+        <button
+          style={styles.button}
+          onClick={() => navigate("/products")}
+        >
+          Shop Now
+        </button>
       </div>
     </div>
   );
@@ -25,43 +27,43 @@ const styles = {
   page: {
     minHeight: "100vh",
     display: "flex",
-    alignItems: "center",
     justifyContent: "center",
-    background:
-      "linear-gradient(135deg, #f4dbd7, #f8eef1)",
-    padding: "40px",
+    alignItems: "center",
+    background: "linear-gradient(135deg, #f4dbd7, #e2a8b6)",
     fontFamily: "Arial",
+    padding: "20px",
   },
 
   hero: {
-    textAlign: "center",
     background: "white",
-    padding: "50px",
+    padding: "60px 40px",
     borderRadius: "20px",
-    boxShadow: "0 10px 30px rgba(0,0,0,0.08)",
-    maxWidth: "700px",
+    textAlign: "center",
+    maxWidth: "650px",
+    width: "100%",
+    boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
   },
 
   title: {
-    fontSize: "52px",
     color: "#8f3232",
-    marginBottom: "15px",
+    fontSize: "48px",
+    marginBottom: "20px",
   },
 
   subtitle: {
-    fontSize: "18px",
-    color: "#6b4d4d",
-    marginBottom: "30px",
-    lineHeight: 1.6,
+    color: "#6b3b3b",
+    fontSize: "20px",
+    marginBottom: "35px",
+    lineHeight: "1.6",
   },
 
   button: {
-    padding: "14px 24px",
-    border: "none",
-    borderRadius: "12px",
-    background: "#e8647c",
+    background: "#8f3232",
     color: "white",
-    fontSize: "16px",
+    border: "none",
+    padding: "14px 28px",
+    fontSize: "18px",
+    borderRadius: "12px",
     cursor: "pointer",
     fontWeight: "bold",
   },
